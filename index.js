@@ -1,10 +1,5 @@
 function submitData (name, email) {
-   
-}
-
-
-
-fetch("http://localhost:3000/users", configObj)
+fetch("http://localhost:3000/users", )
 method: "POST",
   headers: {
     "Content-Type": "application/json",
@@ -22,3 +17,4 @@ method: "POST",
     alert("Bad things!");
     console.log(error.message);
   });
+}
