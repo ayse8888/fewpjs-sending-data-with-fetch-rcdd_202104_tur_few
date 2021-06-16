@@ -1,3 +1,9 @@
+function submitData () {
+  
+}
+
+
+
 const submitData = {
   name: "Ayse",
   email: "ayse@gmail.com"
