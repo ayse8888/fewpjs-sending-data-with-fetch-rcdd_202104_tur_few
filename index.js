@@ -5,7 +5,7 @@ fetch("http://localhost:3000/users", {
     "Content-Type": "application/json",
     "Accept": "application/json"
   },
-  body: JSON.stringify(submitData, )
+  body: JSON.stringify(submitData, {name, email})
 })
   .then(function(response) {
     return response.json();
