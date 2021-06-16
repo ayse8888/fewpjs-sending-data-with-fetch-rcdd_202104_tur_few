@@ -1,15 +1,12 @@
 function submitData (name, email) {
 fetch("http://localhost:3000/users", {
-  
-  
-})
-method: "POST",
+  method: "POST",
   headers: {
     "Content-Type": "application/json",
     "Accept": "application/json"
   },
-  body: JSON.stringify(submitData)
-};
+  body: JSON.stringify(submitData, )
+})
   .then(function(response) {
     return response.json();
   })
