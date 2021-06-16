@@ -1,5 +1,5 @@
 function submitData (name, email) {
-fetch("http://localhost:3000/users", )
+fetch("http://localhost:3000/users", name)
 method: "POST",
   headers: {
     "Content-Type": "application/json",
